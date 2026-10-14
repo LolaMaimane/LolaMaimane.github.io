@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lola Maimane — IT & Cybersecurity</title>
+  <meta name="description" content="Lola Maimane — IT Technician and cybersecurity professional in Johannesburg. Security operations, networks, and a path into offensive security.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="top">
+    <div class="container nav-inner">
+      <a href="#top" class="logo"><span class="prompt">&gt;</span> lola<span class="accent">@</span>maimane<span class="cursor">_</span></a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">≡</button>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#journey">Journey</a>
+        <a href="#certs">Certifications</a>
+        <a href="#contact" class="btn btn-small">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="grid-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <p class="eyebrow mono">IT &amp; Cybersecurity · Security Operations · Networks <span class="accent">◆</span> Johannesburg, ZA</p>
+        <h1>Lola Maimane</h1>
+        <p class="lead">I defend real networks by day, and I'm learning to break them the right way.</p>
+
+        <div class="terminal" aria-label="Terminal introduction">
+          <div class="terminal-bar"><span></span><span></span><span></span><em>kali@lola: ~</em></div>
+          <pre class="terminal-body mono" id="typed"></pre>
+        </div>
+
+        <div class="stats">
+          <div class="stat"><span class="num" data-count="200" data-suffix="+">0</span><span class="label">users secured</span></div>
+          <div class="stat"><span class="num" data-count="2">0</span><span class="label">IT diplomas · Cum Laude</span></div>
+          <div class="stat"><span class="num" data-count="23">0</span><span class="label">Azure security modules</span></div>
+          <div class="stat"><span class="num" data-count="10" data-suffix="+">0</span><span class="label">projects built</span></div>
+        </div>
+
+        <div class="cta">
+          <a href="#contact" class="btn">Get in touch →</a>
+          <a href="#work" class="btn btn-ghost">View selected work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <p class="section-tag mono">// 01. about</p>
+        <h2>Who I am</h2>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>I'm an IT Technician at <strong>GZ Industries South Africa</strong>, where I secure and monitor infrastructure for a 200+ user manufacturing environment: Fortinet firewalls, Wazuh SIEM, Microsoft 365, Azure and Intune.</p>
+            <p>I started as an intern in February 2025 and was appointed IT Technician in February 2026. Along the way I built a PowerShell network scanning tool for asset discovery. That work gave me a defender's view of real networks: their attack surface, their weak spots, and how things actually fail.</p>
+            <p>Now I'm moving into <strong>ethical hacking and offensive security</strong>. I'm building those skills through the Cisco Ethical Hacker course, TryHackMe, Kali Linux and Python/PowerShell scripting.</p>
+            <blockquote>"To defend a network well, you have to understand how it gets attacked."</blockquote>
+          </div>
+          <aside class="facts reveal">
+            <div class="fact"><span>Location</span>Johannesburg, South Africa</div>
+            <div class="fact"><span>Company</span>GZ Industries South Africa</div>
+            <div class="fact"><span>Role</span>IT Technician</div>
+            <div class="fact"><span>Education</span>Adv. Diploma in IT — Cum Laude</div>
+            <div class="fact"><span>Focus</span>Offensive Security</div>
+          </aside>
+        </div>
+
+        <div class="focus-cards">
+          <div class="card reveal"><div class="icon">⚔</div><h3>Offense</h3><p>Kali Linux, TryHackMe labs, Cisco Ethical Hacker coursework, scanning and asset discovery.</p></div>
+          <div class="card reveal"><div class="icon">🛡</div><h3>Defense</h3><p>Wazuh SIEM, Defender for Endpoint, Fortinet firewalls, and monitoring with Zabbix and Grafana.</p></div>
+          <div class="card reveal"><div class="icon">⛓</div><h3>Networks</h3><p>Cisco (CCNA training), Wi-Fi and PoE diagnostics, and ICMP packet loss analysis on a live plant floor.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section alt">
+      <div class="container">
+        <p class="section-tag mono">// 02. work</p>
+        <h2>What I've built</h2>
+        <div class="projects">
+          <article class="project reveal">
+            <p class="project-kind mono">Security tooling</p>
+            <h3>PowerShell Network Scanner &amp; Monitor</h3>
+            <p>A PowerShell scanning tool that discovers and monitors access points, cameras and Wi-Fi devices, feeding Grafana dashboards for real-time visibility.</p>
+            <ul class="tags"><li>PowerShell</li><li>Grafana</li><li>Asset discovery</li></ul>
+          </article>
+          <article class="project reveal">
+            <p class="project-kind mono">Blue team</p>
+            <h3>Infrastructure Monitoring &amp; SIEM</h3>
+            <p>Deployed and managed Zabbix, Grafana and Wazuh SIEM to watch system health, security events and network performance, so we catch incidents earlier.</p>
+            <ul class="tags"><li>Wazuh</li><li>Zabbix</li><li>Grafana</li></ul>
+          </article>
+          <article class="project reveal">
+            <p class="project-kind mono">Automation</p>
+            <h3>Docker &amp; n8n Workflows</h3>
+            <p>Automated infrastructure workflows and piped monitoring data into dashboards and alerts using containerised n8n.</p>
+            <ul class="tags"><li>Docker</li><li>n8n</li><li>Alerting</li></ul>
+          </article>
+          <article class="project reveal">
+            <p class="project-kind mono">Network diagnostics</p>
+            <h3>Wireless &amp; QAS Investigations</h3>
+            <p>Traced intermittent AP drops using ICMP packet loss data and a PoE/power-instability framework. Resolved a QAS network issue affecting quality tracking across plant areas. Wrote <code>Test-ChromecastConnectivity.ps1</code> for automated troubleshooting.</p>
+            <ul class="tags"><li>ICMP</li><li>PoE</li><li>PowerShell</li></ul>
+          </article>
+          <article class="project reveal">
+            <p class="project-kind mono">Generative AI</p>
+            <h3>IBM Gen AI</h3>
+            <p>A Flask web app with JSON responses and generative AI integration across Llama, Granite and Mixtral models.</p>
+            <ul class="tags"><li>Python</li><li>Flask</li><li>LLMs</li></ul>
+            <a class="project-link" href="https://github.com/LolaMaimane/IBM-Gen-Ai" target="_blank" rel="noopener">View on GitHub ↗</a>
+          </article>
+          <article class="project reveal">
+            <p class="project-kind mono">Machine learning</p>
+            <h3>Student Dashboard AI</h3>
+            <p>A student insights dashboard backed by a SQL database and machine learning.</p>
+            <ul class="tags"><li>PHP</li><li>SQL</li><li>JavaScript</li></ul>
+            <a class="project-link" href="https://github.com/LolaMaimane/Student-Dashboard-AI" target="_blank" rel="noopener">View on GitHub ↗</a>
+          </article>
+          <article class="project reveal">
+            <p class="project-kind mono">AgriTech</p>
+            <h3>Smart Weather-Integrated Irrigation</h3>
+            <p>A camera drone that monitors weather and soil in real time to optimise irrigation and conserve water.</p>
+            <ul class="tags"><li>IoT</li><li>Python</li><li>AI</li></ul>
+            <a class="project-link" href="https://github.com/LolaMaimane/weather-forecast-AI" target="_blank" rel="noopener">View on GitHub ↗</a>
+          </article>
+          <article class="project reveal">
+            <p class="project-kind mono">Business apps</p>
+            <h3>SharePoint &amp; Power Apps Systems</h3>
+            <p>A central document management system with access control, versioning and compliance support, plus Power Apps quality management and inventory systems.</p>
+            <ul class="tags"><li>SharePoint</li><li>Power Apps</li><li>Power Automate</li></ul>
+          </article>
+          <article class="project reveal">
+            <p class="project-kind mono">Web</p>
+            <h3>Fresh Scents &amp; Baatseba's Bakehouse</h3>
+            <p>An e-commerce platform and a bakery website, built end to end.</p>
+            <ul class="tags"><li>PHP</li><li>HTML</li><li>CSS</li></ul>
+            <a class="project-link" href="https://github.com/LolaMaimane/Baatsebas-Bakehouse" target="_blank" rel="noopener">View on GitHub ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <p class="section-tag mono">// 03. skills</p>
+        <h2>What I work with</h2>
+        <div class="skills">
+          <div class="card reveal"><div class="icon">⚔</div><h3>Offensive Security <span class="badge">in training</span></h3><p>Kali Linux · TryHackMe · Cisco Ethical Hacker · Python &amp; PowerShell scripting · network scanning</p></div>
+          <div class="card reveal"><div class="icon">🛡</div><h3>Defensive Security</h3><p>Wazuh SIEM · Zabbix · Grafana · Defender for Endpoint · Fortinet firewall administration</p></div>
+          <div class="card reveal"><div class="icon">⛓</div><h3>Networking</h3><p>Cisco (CCNA training) · CompTIA Network+ · Wi-Fi &amp; PoE diagnostics · ICMP / packet loss analysis</p></div>
+          <div class="card reveal"><div class="icon">☁</div><h3>Cloud &amp; Identity</h3><p>Azure · Entra ID · Defender for Cloud · Sentinel · Microsoft 365 · Intune</p></div>
+          <div class="card reveal"><div class="icon">⌨</div><h3>Development</h3><p>Python · PowerShell · JavaScript · PHP · Java · C# · C++ · SQL · React · Node.js · Flask · Django</p></div>
+          <div class="card reveal"><div class="icon">⚙</div><h3>Automation &amp; Tools</h3><p>Docker · n8n · Power Apps · Power Automate · Claude Code · Git/GitHub · Kali, Linux, Windows</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section id="journey" class="section alt">
+      <div class="container">
+        <p class="section-tag mono">// 04. journey</p>
+        <h2>The journey</h2>
+        <p class="sub">From the classroom to the plant floor, and on toward offensive security.</p>
+        <ol class="timeline">
+          <li class="reveal current">
+            <span class="when mono">Feb 2026 — Present</span>
+            <h3>IT Technician</h3>
+            <p class="where">GZ Industries South Africa</p>
+            <p>Manage Microsoft 365, Azure and Intune: user lifecycle, security group policies and device compliance. Administer Fortinet firewalls and Defender for Endpoint. Integrate Zabbix, Wazuh and Grafana into dashboards and alerts.</p>
+          </li>
+          <li class="reveal">
+            <span class="when mono">April 2026</span>
+            <h3>Advanced Diploma in IT — Cum Laude</h3>
+            <p class="where">Vaal University of Technology</p>
+            <p>Computer Security, Artificial Intelligence, UX Design, Advanced Databases, Emerging Technologies, IT Management.</p>
+          </li>
+          <li class="reveal">
+            <span class="when mono">Feb 2025 — Jan 2026</span>
+            <h3>IT Intern</h3>
+            <p class="where">GZ Industries South Africa</p>
+            <p>Investigated wireless and QAS network faults, built PowerShell, Power Apps and Power Automate tools, and digitised manual workflows.</p>
+          </li>
+          <li class="reveal">
+            <span class="when mono">April 2025</span>
+            <h3>Diploma in Information Technology</h3>
+            <p class="where">Vaal University of Technology</p>
+            <p>Web Development, Programming, Programming Logic, Information Systems, System Software, Business Analysis.</p>
+          </li>
+          <li class="reveal">
+            <span class="when mono">April 2024</span>
+            <h3>Python Essentials 1</h3>
+            <p class="where">Cisco Networking Academy</p>
+            <p>The first certificate on my path.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certs" class="section">
+      <div class="container">
+        <p class="section-tag mono">// 05. certifications</p>
+        <h2>Certifications &amp; training</h2>
+        <div class="certs">
+          <div class="cert reveal"><span class="status done">certified</span><h3>Cisco Junior Cybersecurity Analyst</h3><p>Career path incl. Ethical Hacker &amp; Cyber Threat Management · May 2026</p></div>
+          <div class="cert reveal"><span class="status done">certified</span><h3>Fortinet FCA &amp; FCF</h3><p>Fortinet Certified Associate and Fundamentals in Cybersecurity</p></div>
+          <div class="cert reveal"><span class="status progress">in progress</span><h3>TryHackMe</h3><p>Cyber Security 101 completed · Pre Security, SOC Level 1 and Red Teaming paths underway</p></div>
+          <div class="cert reveal"><span class="status done">completed</span><h3>Microsoft Learn — Azure Security</h3><p>Azure Fundamentals &amp; AZ-500 path · 23 modules, 7 learning paths, ~29 hours</p></div>
+          <div class="cert reveal"><span class="status done">training</span><h3>CCNA · Network+ · Cloud+</h3><p>Cisco and CompTIA training completed</p></div>
+          <div class="cert reveal"><span class="status done">completed</span><h3>Harvard CS50</h3><p>Intro to Computer Science · Web Programming with Python &amp; JavaScript</p></div>
+          <div class="cert reveal"><span class="status done">completed</span><h3>Data Science &amp; ML</h3><p>Data Science 101 · Machine Learning with Python</p></div>
+          <div class="cert reveal"><span class="status done">certified</span><h3>Python Essentials 1</h3><p>Cisco Networking Academy · April 2024</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <p class="section-tag mono">// 06. contact</p>
+          <h2>Let's connect</h2>
+          <p class="sub">I'm open to roles and conversations in security operations, penetration testing and network security.</p>
+          <ul class="contact-links">
+            <li><a href="mailto:maimanelola@gmail.com"><span class="mono">email</span>maimanelola@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/lola-maimane-a168252a0" target="_blank" rel="noopener"><span class="mono">linkedin</span>lola-maimane</a></li>
+            <li><a href="https://github.com/LolaMaimane" target="_blank" rel="noopener"><span class="mono">github</span>LolaMaimane</a></li>
+          </ul>
+        </div>
+        <form class="contact-form reveal" id="contact-form">
+          <label>Name<input type="text" name="name" required></label>
+          <label>Email<input type="email" name="email" required></label>
+          <label>Message<textarea name="message" rows="5" required></textarea></label>
+          <button type="submit" class="btn">Send message →</button>
+          <p class="form-note">Opens your email app with the message filled in.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Lola Maimane — Built in South Africa with Claude Code</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
